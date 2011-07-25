@@ -6,10 +6,10 @@ http://shauninman.com/archive/2011/07/25/cssfrag
 
 Firefox (restartless) extension
 
-* download and install cssfrag.xpi latest version 
-https://github.com/Laurian/CSSFrag/blob/master/cssfrag.xpi?raw=true
+* install it from https://addons.mozilla.org/en-US/firefox/addon/cssfrag/
 
-* or install it from https://addons.mozilla.org/en-US/firefox/addon/cssfrag/
+* or download and install cssfrag.xpi latest version 
+https://github.com/Laurian/CSSFrag/blob/master/cssfrag.xpi?raw=true
 
 Description
 
