@@ -1,8 +1,0 @@
-{
-  "name": "cssfrag",
-  "fullName": "CSSFrag",
-  "description": "Fork of Shaun Inman 'CSS Selectors as Fragment Identifiers' implementation",
-  "author": "Laurian Gridinoc",
-  "license": "MPL 1.1/GPL 2.0/LGPL 2.1",
-  "version": "0.1"
-}

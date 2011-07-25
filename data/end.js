@@ -14,6 +14,9 @@ function offsetXY(elem)
 // this page-mod runs at DOM ready
 //window.addEventListener('load', function()
 //{
+//}, false);
+
+function hashCss() {
 	var m;
 	if (m = decodeURIComponent(window.location.hash).match(/css\((.+)\)/))
 	{
@@ -23,5 +26,12 @@ function offsetXY(elem)
 		window.scrollTo(offset.x, offset.y);
 		elem.focus();
 	};
-	
-//}, false);
+}
+
+// run now (DOM Ready)
+hashCss();
+
+window.addEventListener("hashchange", hashCss, false);
+
+
+window.onhashchange 
