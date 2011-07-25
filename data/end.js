@@ -33,5 +33,3 @@ hashCss();
 
 window.addEventListener("hashchange", hashCss, false);
 
-
-window.onhashchange 
