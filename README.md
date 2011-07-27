@@ -33,7 +33,7 @@ Test it with these example links
 
 TODO
 
-* Investigate https://github.com/karanlyons/CSSFrag changes and adopt them.
+* Investigate https://github.com/karanlyons/CSSFrag changes and adopt them (in progress)
 
 
 [1] 'CSS Selectors as Fragment Identifiers' http://simonstl.com/articles/cssFragID.html
