@@ -24,7 +24,7 @@ function singleElementWithID(id) {
 
 	while(element) {
 		elements.push(element);
-		element.id = id + "_CSSFrag";
+		//element.id = id + "_CSSFrag";
 		element = document.getElementById(id);
 	}
 
@@ -36,13 +36,13 @@ function singleElementWithID(id) {
 
 self.on("click", function (node, data) {
 	
-	//console.log(node);
-	
 	//window.settings = safari.self.tab.canLoad(event, 'getSettings'); // Why look! It's another hack!
 			var eventTarget = node;//document.getElementsByClassName("CSSFragTarget")[0];
 			eventTarget.className = eventTarget.className;//.replace(/ CSSFragTarget/g, "");
 
 			var href = window.location.href.split("#")[0].toLowerCase();
+			var url = "";
+			
 			var currentNode = eventTarget;
 			var selector = "";
 			var selectorBuilt = false;
@@ -64,15 +64,16 @@ self.on("click", function (node, data) {
 				}
 			} while (currentNode = currentNode.parentNode);
 			
-			if (singleElementWithID(eventTarget.id)) {
+			//if (singleElementWithID(eventTarget.id)) {
 				//if (settings.preferStandardHashes) { URL = href + "#" + eventTarget.id + ""; }
 				//else { 
-					URL = href + "#css(%23" + eventTarget.id + ")"; 
+			//		url = href + "#css(%23" + eventTarget.id + ")"; 
 				//}
-			}
-			else { URL = href + "#css(" + encodeURIComponent(selector.substring(0, selector.length - 1)) + ")" }
+			//} else { 
+				url = href + "#css(" + encodeURIComponent(selector.substring(0, selector.length - 1)) + ")";
+			//}
 
 			//showURLinWindow(URL);
 			
-	self.postMessage(URL);
+	self.postMessage(url);
 });

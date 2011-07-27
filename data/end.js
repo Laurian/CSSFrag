@@ -119,4 +119,9 @@ window.addEventListener('hashchange', handleLoadAndHashChange, false);
 
 handleLoadAndHashChange();
 
+// show fragment link
+// TODO use panel, etc.
 
+onMessage = function onMessage(url) {
+	prompt("Fragment link", url);
+}

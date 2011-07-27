@@ -2,7 +2,7 @@
     "name": "cssfrag", 
     "license": "MPL 1.1/GPL 2.0/LGPL 2.1", 
     "author": "Laurian Gridinoc", 
-    "version": "0.3", 
+    "version": "0.4", 
     "fullName": "CSSFrag", 
     "id": "jid1-bsKA3hxWvyDYyw", 
     "description": "Fork of Shaun Inman 'CSS Selectors as Fragment Identifiers' implementation"
