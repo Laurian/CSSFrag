@@ -33,7 +33,8 @@ Test it with these example links
 
 TODO
 
-* Investigate https://github.com/karanlyons/CSSFrag changes and adopt them (in progress)
+* investigate why "Generate Fragment Link" on some sites (Google results for example) throws an unresponsive script warning 
+* Settings panel?
 
 
 [1] 'CSS Selectors as Fragment Identifiers' http://simonstl.com/articles/cssFragID.html
